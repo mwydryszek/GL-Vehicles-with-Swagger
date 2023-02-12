@@ -34,13 +34,13 @@ public class VehicleServiceImpl implements VehicleService {
     }
 
     @Override
-    public VehicleDTO addAddress(VehicleDTO addressDTO) {
-        VehicleEntity address = vehicleRepository.save(vehicleMapper.mapToEntity(addressDTO));
+    public VehicleDTO addVehicle(VehicleDTO vehicleDTO) {
+        VehicleEntity address = vehicleRepository.save(vehicleMapper.mapToEntity(vehicleDTO));
         return vehicleMapper.mapToDTO(address);
     }
 
     @Override
-    public void deleteAddress(Long id) {
+    public void deleteVehicle(Long id) {
         vehicleRepository.deleteById(id);
     }
 }

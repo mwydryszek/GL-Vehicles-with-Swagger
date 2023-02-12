@@ -31,13 +31,13 @@ public class VehicleController {
     @ApiOperation(value = "Add vehicle", notes="Add vehicle to database")
     @PostMapping
     public VehicleDTO addVehicle(@RequestBody VehicleDTO addressDTO) {
-        return addressService.addAddress(addressDTO);
+        return addressService.addVehicle(addressDTO);
     }
 
     @ApiOperation(value = "Datele vehicle", notes="Delete vehicle from database")
     @DeleteMapping("/{id}")
     public void deleteVehicle(@ApiParam(value = "Unique id of vehicle", example = "1") @PathVariable("id") Long id) {
-        addressService.deleteAddress(id);
+        addressService.deleteVehicle(id);
     }
 
 }

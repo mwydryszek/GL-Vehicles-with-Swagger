@@ -11,8 +11,8 @@ public interface VehicleService {
 
     List<VehicleDTO> getVehicles();
 
-    VehicleDTO addAddress(VehicleDTO addressDTO);
+    VehicleDTO addVehicle(VehicleDTO vehicleDTO);
 
-    void deleteAddress(Long id);
+    void deleteVehicle(Long id);
 
 }
