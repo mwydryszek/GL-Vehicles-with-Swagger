@@ -1,7 +1,7 @@
 package com.example.vehicles.controller;
 
 import com.example.vehicles.model.dtos.VehicleDTO;
-import com.example.vehicles.repository.service.VehicleService;
+import com.example.vehicles.service.VehicleService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package com.example.vehicles.repository.service;
+package com.example.vehicles.service;
 
 import com.example.vehicles.model.exception.VehicleNotFoundException;
 import com.example.vehicles.repository.VehicleRepository;

@@ -1,7 +1,7 @@
 package com.example.vehicles;
 
 import com.example.vehicles.model.dtos.VehicleDTO;
-import com.example.vehicles.repository.service.VehicleService;
+import com.example.vehicles.service.VehicleService;
 import lombok.RequiredArgsConstructor;
 import org.junit.Assert;
 import org.junit.Test;
